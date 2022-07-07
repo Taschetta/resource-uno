@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resource Uno</title>
+  <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <header class="main-header">
+    <h1><a href="/">RU</a></h1>
+    <nav class="main-navigation">
+      <a href="/notas">Notas</a>
+      <a href="/libros">Libros</a>
+      <a href="/contacto">Contacto</a>
+    </nav>
+  </header>
+  <main class="stack">
+    {{ content | safe }}
+  </main>
+</body>
+</html>

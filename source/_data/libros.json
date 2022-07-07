@@ -1,0 +1,192 @@
+[
+  [
+    "Ahora mismo",
+    [
+      {
+        "titulo": "Taj Mahal",
+        "autor": "Deborah Eisenberg",
+        "tapa": "taj-mahal.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Chai",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Dentro del laberinto / Entre paredes y suspiros",
+        "autor": "Alexia ó Lolo",
+        "tapa": "entre-paredes-y-suspiros.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Artesanal",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "K-Punk - Volumen 2",
+        "subtitulo": "Escritos reunidos e inéditos (Música y política)",
+        "autor": "Mark Fisher",
+        "tapa": "k-punk-2.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Caja Negra",
+        "formato": "Físico"
+      }
+    ]
+  ],
+  [
+    "A punto de arrancar",
+    [
+      {
+        "titulo": "Mario Villani (1940 - 2021)",
+        "subtitulo": "Físico, militante, desaparecido, sobreviviente, testigo de los crimenes de la dictadura",
+        "autor": "Mario Villani",
+        "tapa": "testimonio-mario-villani.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Artesanal",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Cartografica",
+        "autor": "Sike",
+        "tapa": "cartografica.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Estudio Mafia",
+        "formato": "Físico"
+      }
+    ]
+  ],
+  [
+    "Leidos en 2022",
+    [
+      {
+        "titulo": "El genocidio como práctica social",
+        "subtitulo": "Entre el nazismo y la experiencia argentina",
+        "autor": "Daniel Feierstein",
+        "tapa": "el-genocidio-como-practica-social.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Fondo de Cultura Económica",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "El libro de la almohada",
+        "autor": "Sei Shônagon",
+        "tapa": "el-libro-de-la-almohada.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Adriana Hidalgo",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Cielo rojo",
+        "autor": "Paula Dei",
+        "tapa": "cielo-rojo.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Estudio Mafia",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Dilla time",
+        "subtitulo": "The Life and Afterlife of J Dilla, the Hip-Hop Producer Who Reinvented Rhythm",
+        "autor": "Dan Charnas",
+        "tapa": "dilla-time.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Swift Press",
+        "formato": "ebook"
+      },
+      {
+        "titulo": "El evangelio según Jesucristo",
+        "autor": "José Saramago",
+        "tapa": "el-evangelio-segun-jesucristo.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Punto de Lectura",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Broad band",
+        "subtitulo": "The Untold Story of the Women Who Made the Internet",
+        "autor": "Claire L. Evans",
+        "tapa": "broad-band.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "formato": "ebook",
+        "editorial": "Penguin Putnam Inc."
+      }
+    ]
+  ],
+  [
+    "Leidos en 2021 (que me acuerde)",
+    [
+      {
+        "titulo": "K-Punk - Volumen 1",
+        "subtitulo": "Escritos reunidos e inéditos (Libros, películas y televisión)",
+        "autor": "Mark Fisher",
+        "tapa": "k-punk-1.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Caja Negra",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Realismo Capitalista",
+        "subtitulo": "¿No hay alternativa?",
+        "autor": "Mark Fisher",
+        "tapa": "realismo-capitalista.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Caja Negra",
+        "formato": "Físico"
+      }
+    ]
+  ],
+  [
+    "Libros que tendría en un bolso listos para agarrar si se prendiera fuego mi casa",
+    [
+      {
+        "titulo": "Cuentos Completos (1957-2000)",
+        "autor": "Juan José Saer",
+        "tapa": "saer-cuentos.png",
+        "tapa_alt": "",
+        "editorial": "Seix Barral",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Respiracion Artificial",
+        "autor": "Ricardo Piglia",
+        "tapa": "respiracion-artificial.png",
+        "tapa_alt": "",
+        "editorial": "La Nación",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Ulysses",
+        "autor": "James Joyce",
+        "tapa": "ulysses.png",
+        "tapa_alt": "",
+        "editorial": "Vintage",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "La tentación de San Antonio",
+        "autor": "Gustave Flaubert",
+        "tapa": "la-tentacion-de-san-antonio.png",
+        "tapa_alt": "",
+        "editorial": "NEED",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Heliogábalo",
+        "subtitulo": "o el Anarquista coronado",
+        "autor": "Antonin Artaud",
+        "tapa": "heliogabalo.png",
+        "tapa_alt": "",
+        "editorial": "Mil Ombues",
+        "formato": "Físico"
+      }
+    ]
+  ]
+]

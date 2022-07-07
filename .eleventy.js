@@ -3,6 +3,8 @@ const path = require('node:path')
 
 module.exports = (eleventyConfig) => {
 
+  eleventyConfig.addPassthroughCopy('source/**/*.png')
+
   eleventyConfig.addTemplateFormats('scss')
 
   eleventyConfig.addExtension('scss', {
