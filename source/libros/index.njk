@@ -22,7 +22,13 @@ layout: 'base.njk'
         <p>{{ libro.subtitulo }}</p>
         <p>{{ libro.autor }}</p>
       </header>
-      <img src="/_resources/libros/{{ libro.tapa }}" alt="{{ libro.tapa_alt }}">
+      <img 
+        src="/_resources/libros/{{ libro.tapa }}" 
+        alt="{{ libro.tapa_alt }}"
+        loading="lazy"
+        width="300"
+        height="450"
+      >
     </article>    
   {% endfor %}
 </div>

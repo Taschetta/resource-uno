@@ -16,6 +16,29 @@ main {
   padding: 4rem 2rem;
 }
 
+a {
+  text-decoration: none;
+  // transform: rotate(5deg);
+  transition: 500ms ease;
+
+  &:hover {
+    transform: rotate(-5deg);
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  transition: 500ms ease;
+
+  &:hover {
+    transform: rotate(720deg);
+  }
+}
+
 h2 {
   --skew-padding: 2em;
   margin-inline: auto;
@@ -128,6 +151,16 @@ h4 {
   gap: 1rem;
 }
 
+.main-title {
+  text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: .05em;
+
+  &:hover {
+    transform: rotate(-10deg);
+  }
+}
+
 .libro {
   --stack-space: 0.25em;
   display: flex;
@@ -149,5 +182,13 @@ h4 {
     &:hover {
       transform: rotate(-5deg);
     }
+  }
+
+  &:nth-child(even) img:hover {
+    transform: rotate(-5deg);
+  }
+
+  &:nth-child(odd) img:hover {
+    transform: rotate(5deg);
   }
 }
