@@ -7,14 +7,14 @@
   <title>Resource Uno</title>
   <link rel="stylesheet" href="/index.css">
 </head>
-<body>
-  <header class="main-header">
+<body id="app">
+  <header id="header">
     <h1><a href="/">RU</a></h1>
     <nav class="main-navigation">
       <a href="/libros">Libros</a>
     </nav>
   </header>
-  <main class="stack">
+  <main id="main" class="stack">
     {{ content | safe }}
   </main>
 </body>
