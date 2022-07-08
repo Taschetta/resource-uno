@@ -4,6 +4,7 @@ const path = require('node:path')
 module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy('source/**/*.png')
+  eleventyConfig.addPassthroughCopy('source/**/*.mp3')
 
   eleventyConfig.addTemplateFormats('scss')
 

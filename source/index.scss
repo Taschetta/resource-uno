@@ -1,5 +1,9 @@
 @use '_styles/reset';
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -125,16 +129,6 @@ h4 {
   }
 }
 
-// .libro {
-//   display: flex;
-//   flex-direction: column;
-//   text-align: center;
-
-//   img {
-//     order: -1;
-//   }
-// }
-
 .libro {
   --stack-space: 0.25em;
   display: flex;
@@ -164,5 +158,17 @@ h4 {
 
   &:nth-child(odd) img:hover {
     transform: rotate(5deg);
+  }
+}
+
+.sonido {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  
+  .base {
+    display: flex;
+    flex-direction: column;
+    order: -1
   }
 }

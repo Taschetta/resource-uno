@@ -1,0 +1,36 @@
+---
+layout: 'base.njk'
+---
+
+<h2 class="skew">
+  Sonidossss
+</h2>
+<nav class="navigation">
+  {% for tandas in sonidos %}
+    <a 
+      class="button-skew" 
+      href="#{{ tandas[0] | slug }}"
+    >
+      {{ tandas[0] }}
+    </a>
+  {% endfor %}
+</nav>
+{% for tandas in sonidos %}
+<h3 class="skew" id="{{ tandas[0] | slug }}">
+  {{ tandas[0] }}
+</h3>
+<div class="grid">
+  {% for sonido in tandas[1] %}
+    <article class="sonido">
+      <header>
+        <h4>{{ sonido.nombre }}</h4>
+        <p>{{ sonido.fecha }}</p>
+      </header>
+      <div class="base">
+        <img src="/_resources/imagenes/{{ sonido.imagen }}" alt="" load="lazy">
+        <audio controls src="/_resources/sonidos/{{ sonido.archivo }}"></audio>
+      </div>
+    </article>    
+  {% endfor %}
+</div>
+{% endfor %}
