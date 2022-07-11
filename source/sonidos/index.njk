@@ -19,19 +19,27 @@ layout: 'base.njk'
 <h3 class="skew" id="{{ tanda.titulo | slug }}">
   {{ tanda.titulo }}
 </h3>
-<div class="grid-2">
-  <img class="imagen left" src="/_resources/imagenes/{{ tanda.imagen }}" width="350" height="350" alt="" load="lazy">
+<div class="stack skew-children">
   {% for track in tanda.tracks %}
-    <article class="sonido right">
-      <header>
-        <h4>{{ track.nombre }}</h4>
-        <p>{{ track.fecha }}</p>
-      </header>
-      <audio 
-        class="base" 
-        src="/_resources/sonidos/{{ track.archivo }}"
-        preload="metadata"
-        controls 
+    <article class="sonido">
+      <div class="content">
+        <header>
+          <h4>{{ track.nombre }}</h4>
+          <p>{{ track.fecha }}</p>
+        </header>
+        <audio 
+          class="base" 
+          src="/_resources/sonidos/{{ track.archivo }}"
+          preload="metadata"
+          controls 
+        >
+      </div>
+      <img 
+        class="imagen left" 
+        src="/_resources/imagenes/{{ track.imagen }}" 
+        width="350" height="350" 
+        load="lazy"
+        alt="" 
       >
       </audio>
     </article>    
