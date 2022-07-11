@@ -1,48 +1,48 @@
 [
   {
-    "titulo": "Rejunte pre-pandemia (2019 - principios 2020)",
+    "titulo": "Rejunte pre-pandemia (2019 - mediados 2020)",
     "tracks": [
       {
         "nombre": "Migraña",
         "fecha": "2020-03-15",
-        "imagen": "RU-004-01-Migraña.png",
-        "archivo": "RU-004-01-Migraña.mp3"
+        "imagen": "2022-05-29-migraña.png",
+        "archivo": "2020-03-15-migraña.mp3"
       },
       {
         "nombre": "Condicionamiento",
         "fecha": "2019-12-18",
-        "imagen": "RU-003-02-Condicionamiento.png",
-        "archivo": "RU-003-02-Condicionamiento.mp3"
+        "imagen": "2022-05-15-condicionamiento.png",
+        "archivo": "2019-12-18-condicionamiento.mp3"
       },
       {
         "nombre": "Disosiación",
         "fecha": "2020-04-20",
-        "imagen": "RU-002.png",
-        "archivo": "RU-002-01-Disosiación.mp3"
+        "imagen": "2022-05-15-disosiacion.png",
+        "archivo": "2020-04-20-disosiacion.mp3"
       },
       {
         "nombre": "Affección",
         "fecha": "2020-01-03",
-        "imagen": "RU-000.png",
-        "archivo": "RU-002-02-Affección.mp3"
+        "imagen": "2022-04-27-afeccion.png",
+        "archivo": "2020-01-03-affeccion.mp3"
       },
       {
         "nombre": "Instrumento",
         "fecha": "2019-11-23",
-        "imagen": "RU-001-01-Instrumento.png",
-        "archivo": "RU-001-01-Instrumento.mp3"
+        "imagen": "2022-05-05-instrumento.png",
+        "archivo": "2019-11-23-instrumento.mp3"
       },
       {
         "nombre": "Modificaciones",
         "fecha": "2020-03-28",
-        "imagen": "RU-000-01-modificaciones.png",
-        "archivo": "RU-000-01-modificaciones.mp3"
+        "imagen": "2022-05-05-modificaciones.png",
+        "archivo": "2020-03-28-modificaciones.mp3"
       },
       {
         "nombre": "Punción",
         "fecha": "2019-11-28",
-        "imagen": "RU-001-02-Punción.png",
-        "archivo": "RU-001-02-Punción.mp3"
+        "imagen": "2022-05-15-puncion.png",
+        "archivo": "2019-11-28-puncion.mp3"
       }
     ]
   }

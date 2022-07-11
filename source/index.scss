@@ -38,6 +38,11 @@ audio {
 
 h1 {
   font-size: clamp(2rem, calc(1rem + 5vw), 2.5rem);
+  transition: 500ms;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
 }
 
 h2 {
