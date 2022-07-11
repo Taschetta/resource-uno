@@ -6,30 +6,34 @@ layout: 'base.njk'
   Sonidossss
 </h2>
 <nav class="navigation">
-  {% for tandas in sonidos %}
+  {% for tanda in sonidos %}
     <a 
       class="button-skew" 
-      href="#{{ tandas[0] | slug }}"
+      href="#{{ tanda.titulo | slug }}"
     >
-      {{ tandas[0] }}
+      {{ tanda.titulo }}
     </a>
   {% endfor %}
 </nav>
-{% for tandas in sonidos %}
-<h3 class="skew" id="{{ tandas[0] | slug }}">
-  {{ tandas[0] }}
+{% for tanda in sonidos %}
+<h3 class="skew" id="{{ tanda.titulo | slug }}">
+  {{ tanda.titulo }}
 </h3>
-<div class="grid">
-  {% for sonido in tandas[1] %}
-    <article class="sonido">
+<div class="grid-2">
+  <img class="imagen left" src="/_resources/imagenes/{{ tanda.imagen }}" width="350" height="350" alt="" load="lazy">
+  {% for track in tanda.tracks %}
+    <article class="sonido right">
       <header>
-        <h4>{{ sonido.nombre }}</h4>
-        <p>{{ sonido.fecha }}</p>
+        <h4>{{ track.nombre }}</h4>
+        <p>{{ track.fecha }}</p>
       </header>
-      <div class="base">
-        <img src="/_resources/imagenes/{{ sonido.imagen }}" alt="" load="lazy">
-        <audio controls src="/_resources/sonidos/{{ sonido.archivo }}"></audio>
-      </div>
+      <audio 
+        class="base" 
+        src="/_resources/sonidos/{{ track.archivo }}"
+        preload="metadata"
+        controls 
+      >
+      </audio>
     </article>    
   {% endfor %}
 </div>

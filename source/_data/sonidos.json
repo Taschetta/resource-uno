@@ -1,113 +1,107 @@
 [
-  [
-    "Ultima tanda",
-    [
+  {
+    "titulo": "RU-004",
+    "imagen": "RU-004-01-Migraña.png",
+    "tracks": [
       {
-        "fecha": "2022-07-06",
-        "archivo": "2022-07-06-01 - converted.mp3",
-        "imagen": "2022-05-05-100.png"
+        "nombre": "Aura",
+        "fecha": "2019",
+        "archivo": "RU-004-00-Aura.mp3"
       },
       {
-        "fecha": "2022-06-18",
-        "archivo": "2022-06-18-01 - converted.mp3",
-        "imagen": "2022-07-02-012.png"
+        "nombre": "Migraña",
+        "fecha": "2019",
+        "archivo": "RU-004-01-Migraña.mp3"
       },
       {
-        "fecha": "2022-05-29",
-        "nombre": "NOW AGAIN",
-        "archivo": "2022-05-29-03 - NOW AGAIN-converted.mp3",
-        "imagen": "2022-05-15-058.png"
-      },
-      {
-        "fecha": "2022-05-22",
-        "nombre": "QUINTO MES",
-        "archivo": "2022-05-22-01 - QUINTO MES-converted.mp3",
-        "imagen": "2022-06-28-011.png"
-      },
-      {
-        "fecha": "2022-05-15",
-        "nombre": "DISARRAYED",
-        "archivo": "2022-05-15-02 - DISARRAYED-converted.mp3",
-        "imagen": "2022-05-15-021.png"
-      },
-      {
-        "fecha": "2022-05-12",
-        "nombre": "BREEZE",
-        "archivo": "2022-05-12-01 - BREEZE-converted.mp3",
-        "imagen": "2022-06-28-003.png"
-      },
-      {
-        "fecha": "2022-04-17",
-        "archivo": "2022-04-17-01 - converted.mp3",
-        "imagen": "2022-06-28-006.png"
-      },
-      {
-        "fecha": "2022-04-08",
-        "nombre": "BE HERE",
-        "archivo": "2022-04-08-01 - BE HERE-converted.mp3",
-        "imagen": "2022-06-28-001.png"
-      },
-      {
-        "fecha": "2022-04-03",
-        "nombre": "LOOPBACK",
-        "archivo": "2022-04-03-01 - LOOPBACK-converted.mp3",
-        "imagen": "2022-05-15-055.png"
-      },
-      {
-        "fecha": "2022-03-24",
-        "nombre": "CYCLES",
-        "archivo": "2022-03-24-01 - CYCLES-converted.mp3",
-        "imagen": "2022-06-28-002.png"
-      },
-      {
-        "fecha": "2022-03-13",
-        "nombre": "RUFF SQUAD",
-        "archivo": "2022-03-13-00 - RUFF SQUAD-converted.mp3",
-        "imagen": "2022-05-15-050.png"
-      },
-      {
-        "fecha": "2022-03-07",
-        "nombre": "ALERTA",
-        "archivo": "2022-03-07-01 - ALERTA-converted.mp3",
-        "imagen": "2022-05-15-056.png"
-      },
-      {
-        "fecha": "2022-03-06",
-        "nombre": "COSAS",
-        "archivo": "2022-03-06-00 - COSAS-converted.mp3",
-        "imagen": "2022-05-15-059.png"
-      },
-      {
-        "fecha": "2021-08-07",
-        "archivo": "2021-08-07-01 - converted.mp3",
-        "imagen": "2022-05-15-054.png"
-      },
-      {
-        "fecha": "2021-06-25",
-        "archivo": "2021-06-25-16 - converted.mp3",
-        "imagen": "2022-05-15-053.png"
-      },
-      {
-        "fecha": "2021-05-16",
-        "archivo": "2021-05-16-03 - converted.mp3",
-        "imagen": "2022-05-15-052.png"
-      },
-      {
-        "fecha": "2021-05-01",
-        "archivo": "2021-05-01-01 - converted.mp3",
-        "imagen": "2022-05-15-057.png"
-      },
-      {
-        "fecha": "2021-03-30",
-        "nombre": "Pass Thru Fire",
-        "archivo": "2021-03-30-02 - Pass Thru Fire-converted.mp3",
-        "imagen": "2022-06-28-004.png"
-      },
-      {
-        "fecha": "2021-01-30",
-        "archivo": "2021-01-30-01.mp3",
-        "imagen": "2022-07-02-016.png"
+        "nombre": "Cefalea",
+        "fecha": "2019",
+        "archivo": "RU-004-02-Cefalea.mp3"
       }
     ]
-  ]
+  },
+  {
+    "titulo": "RU-003",
+    "imagen": "RU-003.png",
+    "tracks": [
+      {
+        "nombre": "Habituación",
+        "fecha": "2019",
+        "archivo": "RU-003-00-Habituación.mp3"
+      },
+      {
+        "nombre": "Sensibilización",
+        "fecha": "2019",
+        "archivo": "RU-003-01-Sensibilización.mp3"
+      },
+      {
+        "nombre": "Condicionamiento",
+        "fecha": "2019",
+        "archivo": "RU-003-02-Condicionamiento.mp3"
+      }
+    ]
+  },
+  {
+    "titulo": "RU-002",
+    "imagen": "RU-002.png",
+    "tracks": [
+      {
+        "nombre": "Plasticidad",
+        "fecha": "2019",
+        "archivo": "RU-002-00-Plasticidad.mp3"
+      },
+      {
+        "nombre": "Disosiación",
+        "fecha": "2020",
+        "archivo": "RU-002-01-Disosiación.mp3"
+      },
+      {
+        "nombre": "Affección",
+        "fecha": "2019",
+        "archivo": "RU-002-02-Affección.mp3"
+      }
+    ]
+  },
+  {
+    "titulo": "RU-001",
+    "imagen": "RU-001.png",
+    "tracks": [
+      {
+        "nombre": "Inserción",
+        "fecha": "2019",
+        "archivo": "RU-001-00-Inserción.mp3"
+      },
+      {
+        "nombre": "Instrumento",
+        "fecha": "2019",
+        "archivo": "RU-001-01-Instrumento.mp3"
+      },
+      {
+        "nombre": "Punción",
+        "fecha": "2019",
+        "archivo": "RU-001-02-Punción.mp3"
+      }
+    ]
+  },
+  {
+    "titulo": "RU-000",
+    "imagen": "RU-000.png",
+    "tracks": [
+      {
+        "nombre": "Tejidos",
+        "fecha": "2019",
+        "archivo": "RU-000-00-tejidos.mp3"
+      },
+      {
+        "nombre": "Modificaciones",
+        "fecha": "2019",
+        "archivo": "RU-000-01-modificaciones.mp3"
+      },
+      {
+        "nombre": "Biopsia",
+        "fecha": "2019",
+        "archivo": "RU-000-02-biopsia.mp3"
+      }
+    ]
+  }
 ]
