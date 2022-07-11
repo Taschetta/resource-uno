@@ -97,6 +97,20 @@ h4 {
   margin-inline: auto;
 }
 
+#main-title {
+  .uno {
+    display: inline-block;
+    transform: rotate(5deg);
+    transition: 1000ms ease-in-out;
+  }
+
+  &:hover {
+    .uno {
+      transform: rotate(730deg);
+    }
+  }
+}
+
 #footer {
   color: var(--color-dark-light);
   font-size: 16px;
