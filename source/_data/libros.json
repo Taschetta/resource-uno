@@ -33,7 +33,7 @@
     ]
   ],
   [
-    "A punto de arrancar",
+    "En la mesita de luz",
     [
       {
         "titulo": "Mario Villani (1940 - 2021)",
@@ -146,6 +146,14 @@
   [
     "Libros que tendría en un bolso listos para agarrar si se prendiera fuego mi casa",
     [
+      {
+        "titulo": "El Beso de la Mujer Araña",
+        "autor": "Manuel Puig",
+        "tapa": "empty.png",
+        "tapa_alt": "",
+        "editorial": "",
+        "formato": "Fisico"
+      },
       {
         "titulo": "Cuentos Completos (1957-2000)",
         "autor": "Juan José Saer",
