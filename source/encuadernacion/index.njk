@@ -1,0 +1,40 @@
+---
+layout: 'base.njk'
+---
+
+<h2 class="skew">
+  Cosas que encuaderné
+</h2>
+<nav class="navigation">
+  {% for grupo in encuadernacion %}
+    <a 
+      class="button-skew" 
+      href="#{{ grupo.titulo | slug }}"
+    >
+      {{ grupo.titulo }}
+    </a>
+  {% endfor %}
+</nav>
+{% for grupo in encuadernacion %}
+<h3 class="skew" id="{{ grupo.titulo | slug }}">
+  {{ grupo.titulo }}
+</h3>
+<div class="grid">
+  {% for item in grupo.items %}
+    <article class="libro">
+      <header>
+        <h4>{{ item.titulo }}</h4>
+        <p>{{ item.subtitulo }}</p>
+        <p>{{ item.tipo }}</p>
+      </header>
+      <img 
+        src="/_resources/encuadernacion/{{ item.imagen }}" 
+        alt="{{ item.imagen_alt }}"
+        loading="lazy"
+        width="300"
+        height="450"
+      >
+    </article>    
+  {% endfor %}
+</div>
+{% endfor %}
