@@ -2,47 +2,30 @@
 layout: 'base.njk'
 ---
 
-# RubiBikes. Tienda Virtual
+# RubiBikes
 
-- Introducción
-- Estructura del proyecto
-- Evolucion del proyecto
-- Conclusiones
+A mediados de 2020, con la pandemia ya en un punto en el que se empezaba a notar que iba para largo, empezamos en Cluster este proyecto para poner en práctica todo lo qe habia venido aprendiendo desde principios de año. Dentro de la incertidumbre que fue ese año, y con el mundo en esa pausa rara que todos conocimos, estuvo bueno enganchar un proyecto como para tener al menos una seguridad.
 
-## Introducción
+RubiBikes es un taller de motos y venta de repuestos de Uruguay. Ellos tenian todo el manejo de las ventas online por MercadoLibre, pero querían tener su propio espacio como para no tener que depender tanto de los requerimientos y los costos que te impone esa plataforma.
 
+La idea, entonces, era tener su propia página: poder mostrar sus productos, poder manejar las ventas. Tambien querian poder administrar los datos de la página de forma cómoda, por lo que iba a hacer falta tambien tener un panel de administración para todo esto.
 
+Entonces, definimos que la pagina iba a tener tres partes:
 
-## Estructura del proyecto
+- un frontend para la tienda en si,
+- un frontend para el panel de administración, y
+- un backend para manejar toda la lógica de negocio
 
+Para los dos fronts decidimos usar Vue con Nuxt, que era lo que ya venía aprendiendo, y para el backend usamos el framework AdonisJS. Elegimos estos frameworks porque ya en la oficina tenian otro proyecto que usaba esto mismo, y del que quizas mas adelante me terminaría encargando si hacia falta un nuevo módulo o algo así (cosa que terminó pasando). Todo esto, ademas, lo montamos en una VPS con Linux. De esto si que no tenia casi experiencia, pero investigando a pleno como hacer cada cosa siento que pude aprender un monton.
 
+Entonces arrancamos el proyecto. Nacho se encargó de todo el diseño de la base de datos (del que aprendí muchísimo), de hablar con Ducis (quienes iban a administrar la página para RubiBikes) y de definir bien los requerimientos, y yo me encargué de toda la programación.
 
-## Evolucion del proyecto
+El proyecto en si llevo mas tiempo del que nos hubiera gustado. Por suerte no teniamos muchas presiones al respecto de tiempos y plazos de entrega, ya que desde un proncipio les planteamos a Ducis y a RubiBikes que usaríamos a este proyecto para aprender, y que por lo tanto habría demoras y toda la cosa (lo que se vería reflejado tambien en un costo mucho mas bajo).
 
+Y así y todo, con las idas y vueltas, los rediseños y las reescrituras de código, siento que aprendí más con este proyecto que con cualquier otra cosa que haya hecho hasta ahora. Tener la libertad y el tiempo para experimentar con distintas formas de hacer las cosas, de organizar el codigo, siento que me hizo ver a la programacion de una forma en la que nunca la habia visto.
 
+Tambien, mientras iba pasando el tiempo y se iba acumulando el codigo junnto con las distintas funcionalidades de la pagina, pude empezar a entender en serio el peso que va tomando el codigo para la productividad en un proyecto de este tamaño. Pude ver que tan utiles fueron las distintas cosas que fui haciendo al tener que volver sobre ellas para agregar nuevas funcionalidades o corregir errores. ¿Que cosas fueron faciles de modificar despues de un mes de hechas? ¿Que cosas tuve que reescribir por completo al ver que eran imposibles de modificar?
 
-## Conclusiones
+Creo que esto fue lo que mas pude aprender de este proeycto. la necesidad de **mantener el codigo tan simple como se pueda y tan complejo como sea necesario**. No creo haber podido sacar una fórmula perfecta para manejar la complejidad de los proyectos, pero si al menos empezar a tener una vocecita en la cabeza diciendome "no te compliques al pedo", asi como tambien una minima intuicion de cuando hace falta complicarse un poco mas.
 
-
-
-La idea del proyecto fue armar una tienda virtual para RubiBikes, un taller y local de venta de repuestos de motos de Uruguay. Hasta ese momento, ellos se encontraban manejando todas las ventas online por MercadoLibre, y querían tener su propia plataforma para tener una mayor independencia de los requerimientos y costos que impone MercadoLibre.
-
-Arrancamos el proyecto a mediados de 2020, sin muchas presiones sobre tiempos y plazos de entrega, y con la idea de que nos sirviera para aprender todo lo que habiamos empezado a ver desde principios de 2020.
-
-En este sentido, el proyecto llevó mas tiempo del que nos hubiera gustado. Hubieron muchas idas y vueltas, muchas reescrituras de codigo y cambios y recambios de funcionalidad hasta que fuimos encontrando la mejor manera de hacer las cosas para nosotros.
-
-A pesar de esto, siento que aprendí muchisimo con este proyecto. Habiendome encargado de toda la programación de un proyecto de este tamaño pude ver de una forma que no conocia hasta ese momento todo lo que conlleva este tipo de trabajos.
-
-Creo que de entre todas las cosas que pude aprender en todo el tiempo que estuve trabajando en este codigo, las dos cosas que siento que mas aprendí de todo esto fueron: 
-
-Primero, a pensar las consecuencias de las decisiones de diseño a lo largo del tiempo. Decir "bueno, esto lo voy a hacer de tal forma o de tal otra", y tener que volver un mes despues o dos a ese codigo para agregarle una nueva funcionalidad, solo para darte cuenta de que es imposible de agregar sin reescribir todo lo que ya tenias hecho... Esa frustración, al repetirse dos o tres veces, hace que te vayas dando cuenta de que soluciones son flexibles y cuales no, que codigo no vas a poder ni entender de aca a una semana y cual si. Y esto tambien creo que fue lo que me llegó a la segunda cosa que aprendí con este proyecto
-
-A no complicar el codigo al pedo. No agregar complejidad donde no hace falta. Pero
-
-El codigo está compuesto por tres partes: 
-
-- un frontend para la tienda, 
-- un frontend para el panel de administración, y 
-- un backend para toda la lógica de negocio.
-
-Todo esto montado en una VPS con linux
+Mientras escribo esto estamos esperando que RubiBikes termine de cargar los últimos datos que faltan para poner en funcionamiento la página. Veremos como sale todo...
