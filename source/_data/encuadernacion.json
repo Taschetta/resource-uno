@@ -4,13 +4,13 @@
     "items": [
       {
         "titulo": "Cuaderno Gauguin (Agus)",
-        "imagen": "empty.png",
+        "imagen": "cuaderno-agus.png",
         "imagen_alt": "",
         "tipo": "Tapa dura"
       },
       {
         "titulo": "Cuaderno Dionisio (Ivan)",
-        "imagen": "empty.png",
+        "imagen": "cuaderno-ivan.png",
         "imagen_alt": "",
         "tipo": "Tapa dura"
       },
@@ -27,14 +27,14 @@
         "tipo": "Tapa dura"
       },
       {
-        "titulo": "Cuaderno Rejunte (Mío)",
-        "imagen": "cuaderno-mio-1.png",
+        "titulo": "Cuaderno Cimoc (Mío)",
+        "imagen": "cuaderno-mio-2.png",
         "imagen_alt": "",
         "tipo": "Tapa dura"
       },
       {
-        "titulo": "Cuaderno Cimoc (Mío)",
-        "imagen": "cuaderno-mio-2.png",
+        "titulo": "Cuaderno Rejunte (Mío)",
+        "imagen": "cuaderno-mio-1.png",
         "imagen_alt": "",
         "tipo": "Tapa dura"
       }

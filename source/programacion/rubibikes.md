@@ -38,6 +38,6 @@ tags: trabajos
 
   Creo que esto fue lo que mas pude aprender de este proyecto. la necesidad de mantener el código tan simple como se pueda y tan complejo como sea necesario. No creo haber podido sacar una fórmula perfecta para manejar la complejidad de los proyectos, pero si al menos empezar a tener una vocecita en la cabeza diciéndome "no te compliques al pedo", así como también una mínima intuición de cuando hace falta complicarse un poco mas.
 
-  Mientras escribo esto estamos esperando que RubiBikes termine de cargar los últimos datos que faltan para poner en funcionamiento la página. Veremos como sale todo...
+  Mientras escribo esto estamos esperando que RubiBikes termine de cargar los últimos datos que faltan para poner en funcionamiento la página. Vamos a ver como sale todo...
 
 </div>
