@@ -7,10 +7,7 @@ layout: 'base.njk'
 </h2>
 <nav class="navigation">
   {% for tanda in sonidos %}
-    <a 
-      class="button-skew" 
-      href="#{{ tanda.titulo | slug }}"
-    >
+    <a href="#{{ tanda.titulo | slug }}">
       {{ tanda.titulo }}
     </a>
   {% endfor %}
@@ -21,7 +18,19 @@ layout: 'base.njk'
 </h3>
 <div class="stack skew-children">
   {% for track in tanda.tracks %}
-    <article class="sonido">
+    <article 
+      class="card"
+      {% if track.shadow_primary and track.shadow_secondary %}
+        style="--shadow-primary: {{ track.shadow_primary }}; --shadow-secondary: {{ track.shadow_secondary }};"
+      {% endif %}
+    >
+      <img 
+        class="image"
+        src="/_resources/imagenes/{{ track.imagen }}" 
+        width="350" height="350" 
+        load="lazy"
+        alt="" 
+      >
       <div class="content">
         <header>
           <h4>{{ track.nombre }}</h4>
@@ -32,16 +41,8 @@ layout: 'base.njk'
           src="/_resources/sonidos/{{ track.archivo }}"
           preload="metadata"
           controls 
-        >
+        ></audio>
       </div>
-      <img 
-        class="imagen left" 
-        src="/_resources/imagenes/{{ track.imagen }}" 
-        width="350" height="350" 
-        load="lazy"
-        alt="" 
-      >
-      </audio>
     </article>    
   {% endfor %}
 </div>

@@ -7,10 +7,7 @@ layout: 'base.njk'
 </h2>
 <nav class="navigation">
   {% for libros in libros %}
-    <a 
-      class="button-skew" 
-      href="#{{ libros[0] | slug }}"
-    >
+    <a href="#{{ libros[0] | slug }}">
       {{ libros[0] }}
     </a>
   {% endfor %}

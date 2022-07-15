@@ -5,18 +5,20 @@ layout: 'base.njk'
 <h2 class="skew">Programación</h2>
 {% for trabajo in collections.trabajos %}
   <article 
-    class="programacion" 
+    class="card programacion" 
     {% if trabajo.data.color_primary and trabajo.data.color_secondary %}
       style="
-        --shadow-color-primary: {{ trabajo.data.color_primary }}; 
-        --shadow-color-secondary: {{ trabajo.data.color_secondary }};
+        --shadow-primary: {{ trabajo.data.color_primary }}; 
+        --shadow-secondary: {{ trabajo.data.color_secondary }};
       "
     {% endif %}
   >
-    <img src="/_resources/programacion/{{ trabajo.data.cover }}" alt="">
-    <h3><a href="{{ trabajo.url }}">{{ trabajo.data.titulo }}</a></h3>
-    <p>{{ trabajo.data.desarrollo }}</p>
-    <p>{{ trabajo.data.descripcion }}</p>
-    <a href="{{ trabajo.url }}">Ver más</a>
+    <img class="image" src="/_resources/programacion/{{ trabajo.data.cover }}" alt="">
+    <div class="content">
+      <h3><a href="{{ trabajo.url }}">{{ trabajo.data.titulo }}</a></h3>
+      <p>{{ trabajo.data.desarrollo }}</p>
+      <p>{{ trabajo.data.descripcion }}</p>
+      <a href="{{ trabajo.url }}">Ver más</a>
+    </div>
   </article>
 {% endfor %}

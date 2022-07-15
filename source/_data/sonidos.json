@@ -6,43 +6,57 @@
         "nombre": "Migraña",
         "fecha": "2020-03-15",
         "imagen": "2022-05-29-migraña.png",
-        "archivo": "2020-03-15-migraña.mp3"
+        "archivo": "2020-03-15-migraña.mp3",
+        "shadow_primary": "hsl(300, 100%, 80%)",
+        "shadow_secondary": "hsl(180, 100%, 80%)"
       },
       {
         "nombre": "Condicionamiento",
         "fecha": "2019-12-18",
         "imagen": "2022-05-15-condicionamiento.png",
-        "archivo": "2019-12-18-condicionamiento.mp3"
+        "archivo": "2019-12-18-condicionamiento.mp3",
+        "shadow_primary": "hsl(0, 100%, 75%)",
+        "shadow_secondary": "hsl(120, 100%, 75%)"
       },
       {
         "nombre": "Disosiación",
         "fecha": "2020-04-20",
         "imagen": "2022-05-15-disosiacion.png",
-        "archivo": "2020-04-20-disosiacion.mp3"
+        "archivo": "2020-04-20-disosiacion.mp3",
+        "shadow_primary": "hsl(180, 100%, 80%)",
+        "shadow_secondary": "hsl(0, 84%, 78%)"
       },
       {
         "nombre": "Affección",
         "fecha": "2020-01-03",
         "imagen": "2022-04-27-afeccion.png",
-        "archivo": "2020-01-03-affeccion.mp3"
+        "archivo": "2020-01-03-affeccion.mp3",
+        "shadow_primary": "hsl(0, 0%, 0%)",
+        "shadow_secondary": "#c5c5c5"
       },
       {
         "nombre": "Instrumento",
         "fecha": "2019-11-23",
         "imagen": "2022-05-05-instrumento.png",
-        "archivo": "2019-11-23-instrumento.mp3"
+        "archivo": "2019-11-23-instrumento.mp3",
+        "shadow_primary": "hsl(0, 0%, 0%)",
+        "shadow_secondary": "white"
       },
       {
         "nombre": "Modificaciones",
         "fecha": "2020-03-28",
         "imagen": "2022-05-05-modificaciones.png",
-        "archivo": "2020-03-28-modificaciones.mp3"
+        "archivo": "2020-03-28-modificaciones.mp3",
+        "shadow_primary": "hsl(128, 43%, 81%)",
+        "shadow_secondary": "#efc2b7"
       },
       {
         "nombre": "Punción",
         "fecha": "2019-11-28",
         "imagen": "2022-05-15-puncion.png",
-        "archivo": "2019-11-28-puncion.mp3"
+        "archivo": "2019-11-28-puncion.mp3",
+        "shadow_primary": "hsl(0, 74%, 78%)",
+        "shadow_secondary": "white"
       }
     ]
   }
