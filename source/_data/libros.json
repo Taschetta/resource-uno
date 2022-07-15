@@ -122,6 +122,16 @@
     "Leidos en 2021 (que me acuerde)",
     [
       {
+        "titulo": "Realismo Capitalista",
+        "subtitulo": "¿No hay alternativa?",
+        "autor": "Mark Fisher",
+        "tapa": "realismo-capitalista.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Caja Negra",
+        "formato": "Físico"
+      },
+      {
         "titulo": "K-Punk - Volumen 1",
         "subtitulo": "Escritos reunidos e inéditos (Libros, películas y televisión)",
         "autor": "Mark Fisher",
@@ -132,13 +142,28 @@
         "formato": "Físico"
       },
       {
-        "titulo": "Realismo Capitalista",
-        "subtitulo": "¿No hay alternativa?",
-        "autor": "Mark Fisher",
-        "tapa": "realismo-capitalista.png",
+        "titulo": "Palmeras Salvajes",
+        "autor": "William Faulkner",
+        "tapa": "palmeras-salvajes.png",
         "tapa_alt": "",
-        "fecha_leido": "2022",
-        "editorial": "Caja Negra",
+        "editorial": "Sudamericana",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Los Diarios De Emilio Renzi I",
+        "subtitulo": "Años de Formación",
+        "autor": "Ricardo Piglia",
+        "tapa": "piglia-diarios-1.png",
+        "tapa_alt": "", 
+        "editorial": "Anagrama",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Apegos Feroces",
+        "autor": "Vivian Gornik",
+        "tapa": "apegos-feroces.png",
+        "tapa_alt": "",
+        "editorial": "",
         "formato": "Físico"
       }
     ]
@@ -149,7 +174,7 @@
       {
         "titulo": "El Beso de la Mujer Araña",
         "autor": "Manuel Puig",
-        "tapa": "empty.png",
+        "tapa": "el-beso-de-la-mujer-araña.png",
         "tapa_alt": "",
         "editorial": "",
         "formato": "Fisico"

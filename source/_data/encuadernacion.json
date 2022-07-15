@@ -58,7 +58,21 @@
         "tipo": "Encuadernacion Japonesa"
       },
       {
-        "titulo": "El descanso / Una isla",
+        "titulo": "La Balada Del Café Triste",
+        "subtitulo": "Carson McCullers",
+        "imagen": "mccullers-cafe-triste.png",
+        "imagen_alt": "",
+        "tipo": "Encuadernacion Japonesa"
+      },
+      {
+        "titulo": "An American Prayer",
+        "subtitulo": "Jim Morrison",
+        "imagen": "morrison-american-prayer.png",
+        "imagen_alt": "",
+        "tipo": "Encuadernacion Japonesa"
+      },
+      {
+        "titulo": "El Descanso / Una Isla",
         "subtitulo": "Fabian Diaz / Andrés Gallina / Giuliana Kiersz",
         "imagen": "fabian.png",
         "imagen_alt": "",

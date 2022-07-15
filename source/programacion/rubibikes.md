@@ -1,7 +1,7 @@
 ---
 layout: 'base.njk'
 titulo: RubiBikes
-desarrollo: 2020 - 2022
+desarrollo: 2020
 cover: rubibikes-cover.png
 color_primary: '#fdde77'
 color_secondary: '#6b7280'
