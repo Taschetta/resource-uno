@@ -49,8 +49,10 @@ h4 {
   letter-spacing: .05em;
 }
 
-p {
+p, ul:not([class]) {
+  width: 100% ;
   max-width: 70ch;
+  margin-inline: auto;
 }
 
 a[class] {
@@ -198,12 +200,27 @@ audio {
   transition: 1000ms ease;
 }
 
+.image-link {
+  display: inline-block;
+}
+
+.image.twisted {
+  --image-rotation: 2deg;
+
+  &:nth-of-type(even) {
+    --image-rotation: -2deg;
+  }
+}
+
 .card {
   border: 1px solid var(--color-dark);
   transform: rotate(var(--card-rotation));
-  max-width: 1000px;
-  margin-inline: auto;
+  // max-width: 1000px;
+  // margin-inline: auto;
   transition: 1000ms ease;
+
+  max-width: 500px;
+  margin-inline: auto;
 
   .content {
     display: flex;
@@ -241,15 +258,23 @@ audio {
 
   @media (min-width: 700px) {
     display: flex;
+    max-width: 1000px;
 
-    img {
-      max-width: var(--image-max-width, 250px);
-      height: auto;
+    .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 300px;
+      padding: 1em;
+      img {
+        max-height: 300px;
+        aspect-ratio: 1;
+      }
     }
 
     .content {
       flex-grow: 1;
-      padding: 2em;
+      padding: 1em;
     }
   }
 }

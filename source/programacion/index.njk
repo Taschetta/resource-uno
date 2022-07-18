@@ -13,7 +13,9 @@ layout: 'base.njk'
       "
     {% endif %}
   >
-    <img class="image" src="/_resources/programacion/{{ trabajo.data.cover }}" alt="">
+    <a class="banner" href="{{ trabajo.url }}">
+      <img class="image" src="/_resources/programacion/{{ trabajo.data.cover }}" alt="">
+    </a>
     <div class="content">
       <h3><a href="{{ trabajo.url }}">{{ trabajo.data.titulo }}</a></h3>
       <p>{{ trabajo.data.desarrollo }}</p>
