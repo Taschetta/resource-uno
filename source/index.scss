@@ -155,7 +155,7 @@ audio {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 650px;
+  max-width: 600px;
   margin-inline: auto;
   gap: 1em;
 
@@ -171,7 +171,7 @@ audio {
       calc(100% - 0em) calc(0% + 0em), 
       calc(0% + 2em) calc(0% + 0em)
     );
-    margin-right: -2.5em;
+    // margin-right: -2.5em;
     max-width: 30ch;
     transition: 500ms ease;
 
@@ -179,7 +179,7 @@ audio {
       transform: rotate(-5deg);
       &:hover {
         transform: scale(1.25) rotate(5deg);
-        margin-right: -1.5em;
+        // margin-right: -1.5em;
         z-index: 100;
       }
     }
@@ -228,6 +228,11 @@ audio {
     justify-content: center;
     gap: 1em;
     padding: 1em;
+  }
+
+  .banner {
+    display: block;
+    padding: 1.5em;
   }
 
   &:hover {

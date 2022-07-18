@@ -24,13 +24,15 @@ layout: 'base.njk'
         style="--shadow-primary: {{ track.shadow_primary }}; --shadow-secondary: {{ track.shadow_secondary }};"
       {% endif %}
     >
-      <img 
-        class="image banner"
-        src="/_resources/imagenes/{{ track.imagen }}" 
-        width="350" height="350" 
-        load="lazy"
-        alt="" 
-      >
+      <div class="banner">
+        <img 
+          class="image"
+          src="/_resources/imagenes/{{ track.imagen }}" 
+          width="350" height="350" 
+          load="lazy"
+          alt="" 
+        >
+      </div>
       <div class="content">
         <header>
           <h4>{{ track.nombre }}</h4>
