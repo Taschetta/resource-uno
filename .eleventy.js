@@ -5,6 +5,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy('source/**/*.png')
   eleventyConfig.addPassthroughCopy('source/**/*.mp3')
+  eleventyConfig.addPassthroughCopy('source/**/*.js')
 
   eleventyConfig.addTemplateFormats('scss')
 

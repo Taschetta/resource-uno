@@ -11,6 +11,8 @@
 
 /* Base Styles */
 
+
+
 body {
   font-size: 18px;
   font-family: var(--font-main);
@@ -27,7 +29,7 @@ h1 {
   a {
     text-decoration: none;
   }
-  
+
   &:hover {
     transform: rotate(360deg);
   }
@@ -79,6 +81,7 @@ audio {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #main {
@@ -108,7 +111,8 @@ audio {
   letter-spacing: 1ch;
   text-align: right;
   padding: 1em;
-  
+  background-color: rgba(255, 255, 255, 0.75);
+
   p {
     max-width: 100%;
   }
@@ -123,9 +127,9 @@ audio {
   // padding-block: 1em;
   padding: 1em;
   clip-path: polygon(
-    calc(0% + 0em) calc(100% - 0.75em), 
-    calc(100% - 0em) calc(100% - 0em), 
-    calc(100% - 0.25em) calc(0% + 1em), 
+    calc(0% + 0em) calc(100% - 0.75em),
+    calc(100% - 0em) calc(100% - 0em),
+    calc(100% - 0.25em) calc(0% + 1em),
     calc(0% + 1em) calc(0% + 0.5em)
   );
 }
@@ -166,9 +170,9 @@ audio {
     padding-block: 0.5em;
     padding-inline: 2.5em;
     clip-path: polygon(
-      calc(0% + 0em) calc(100% - 0em), 
-      calc(100% - 2em) calc(100% - 0em), 
-      calc(100% - 0em) calc(0% + 0em), 
+      calc(0% + 0em) calc(100% - 0em),
+      calc(100% - 2em) calc(100% - 0em),
+      calc(100% - 0em) calc(0% + 0em),
       calc(0% + 2em) calc(0% + 0em)
     );
     // margin-right: -2.5em;
@@ -236,7 +240,7 @@ audio {
   }
 
   &:hover {
-    box-shadow: 
+    box-shadow:
       10px 10px var(--shadow-primary),
       -10px -10px var(--shadow-secondary);
   }
@@ -254,7 +258,7 @@ audio {
   &:nth-child(even) {
     --card-rotation: -1deg;
     --image-rotation: -3deg;
-    
+
     &:hover {
       --card-rotation: 2deg;
       --image-rotation: 4deg;
@@ -318,4 +322,13 @@ audio {
   &:nth-child(odd) img:hover {
     transform: rotate(5deg);
   }
+}
+
+.p5Canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: 0;
+  z-index: -1;
 }

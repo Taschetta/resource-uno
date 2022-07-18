@@ -1,0 +1,10 @@
+---
+layout: 'base.njk'
+---
+
+<h2 class="skew">Sketches</h2>
+<ul>
+{% for sketch in collections.sketch %}
+  <li><a href="{{ sketch.url }}">{{ sketch.date.toLocaleDateString() }}</a></li>
+{% endfor %}
+</ul>`
