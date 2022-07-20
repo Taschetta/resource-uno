@@ -107,6 +107,15 @@
         "formato": "Físico"
       },
       {
+        "titulo": "Patterns Of Enterprise Application Architecture",
+        "autor": "Martin Fowler",
+        "tapa": "enterprise-patterns.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "formato": "ebook",
+        "editorial": "Addison Wesley"
+      },
+      {
         "titulo": "Broad band",
         "subtitulo": "The Untold Story of the Women Who Made the Internet",
         "autor": "Claire L. Evans",
@@ -142,14 +151,6 @@
         "formato": "Físico"
       },
       {
-        "titulo": "Palmeras Salvajes",
-        "autor": "William Faulkner",
-        "tapa": "palmeras-salvajes.png",
-        "tapa_alt": "",
-        "editorial": "Sudamericana",
-        "formato": "Físico"
-      },
-      {
         "titulo": "Los Diarios De Emilio Renzi I",
         "subtitulo": "Años de Formación",
         "autor": "Ricardo Piglia",
@@ -164,6 +165,14 @@
         "tapa": "apegos-feroces.png",
         "tapa_alt": "",
         "editorial": "",
+        "formato": "Físico"
+      },
+      {
+        "titulo": "Palmeras Salvajes",
+        "autor": "William Faulkner",
+        "tapa": "palmeras-salvajes.png",
+        "tapa_alt": "",
+        "editorial": "Sudamericana",
         "formato": "Físico"
       }
     ]

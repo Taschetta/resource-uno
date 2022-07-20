@@ -2,9 +2,25 @@
 layout: 'base.njk'
 ---
 
-<h2 class="skew">Sketches</h2>
-<ul>
-{% for sketch in collections.sketch %}
-  <li><a href="{{ sketch.url }}">{{ sketch.date.toLocaleDateString() }}</a></li>
-{% endfor %}
-</ul>`
+<header class="skew">
+  <h2>Sketches</h2>
+  <p>(Elegí alguno, move el mouse, hace click, etc...)</p>
+</header>
+<div class="grid">
+  {% for sketch in collections.sketch %}
+    <a class="libro" href="{{ sketch.url }}">
+      <article>
+        <img 
+          class="image" 
+          width="600"
+          height="300"
+          src="/_resources/sketches/{{ sketch.data.image }}" 
+          alt=""
+        >
+        <header>
+          <h4>{{ sketch.data.name }}</h4>
+        </header>
+      </article>
+    </a>
+  {% endfor %}
+</div>
