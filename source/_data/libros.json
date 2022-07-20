@@ -3,15 +3,6 @@
     "Ahora mismo",
     [
       {
-        "titulo": "Taj Mahal",
-        "autor": "Deborah Eisenberg",
-        "tapa": "taj-mahal.png",
-        "tapa_alt": "",
-        "fecha_leido": "2022",
-        "editorial": "Chai",
-        "formato": "Físico"
-      },
-      {
         "titulo": "Dentro del laberinto / Entre paredes y suspiros",
         "autor": "Alexia ó Lolo",
         "tapa": "entre-paredes-y-suspiros.png",
@@ -59,6 +50,15 @@
   [
     "Leidos en 2022",
     [
+      {
+        "titulo": "Taj Mahal",
+        "autor": "Deborah Eisenberg",
+        "tapa": "taj-mahal.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Chai",
+        "formato": "Físico"
+      },
       {
         "titulo": "El genocidio como práctica social",
         "subtitulo": "Entre el nazismo y la experiencia argentina",
