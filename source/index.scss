@@ -152,6 +152,67 @@ audio {
   gap: 2rem;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  // grid-template-rows: repeat(14, 1fr);
+  max-width: 800px;
+  margin-inline: auto;
+  aspect-ratio: 1;
+
+  > *:not(.image-grid-a) {
+
+    img {
+      transition: 1500ms ease;
+    }
+
+    :checked + img {
+      transform: rotateX(180deg) rotateY(360deg);
+    }
+  }
+
+
+  &-a {
+    grid-column: 3 / 13;
+    grid-row: 3 / 13;
+    
+    img {
+      transition: 2000ms ease;
+    }
+
+    :checked + img {
+      transform: rotateX(180deg) rotateY(360deg);
+    }
+    
+    // + input:checked {
+    // }
+  }
+
+  &-b {
+    grid-column: 1 / 6;
+    grid-row: 1 / 6;
+    transform: rotate(-20deg);
+  }
+
+  &-c {
+    grid-column: 11 / 15;
+    grid-row: 1 / 5;
+    transform: rotate(-10deg);
+  }
+
+  &-d {
+    grid-column: 11 / 15;
+    grid-row: 6 / 10;
+    transform: rotate(5deg);
+  }
+
+  &-e {
+    grid-column: 11 / 15;
+    grid-row: 11 / 15;
+    transform: rotate(8deg);
+  }
+}
+
 /* Components */
 
 .navigation {
