@@ -7,7 +7,7 @@ layout: 'base.njk'
   <p>(Elegí alguno, move el mouse, hace click, etc...)</p>
 </header>
 <div class="grid">
-  {% for sketch in collections.sketch %}
+  {% for sketch in collections.sketch | reverse %}
     <a class="libro" href="{{ sketch.url }}">
       <article>
         <img 
