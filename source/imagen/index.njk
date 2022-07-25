@@ -6,22 +6,35 @@ layout: 'base.njk'
 <div class="image-grid">
   <label class="image-grid-a">
     <input type="checkbox" hidden>
-    <img class="image" src="/_resources/imagenes/2022-05-29-003.png" alt="">
+    <img class="image" src="/_resources/imagenes/2022-05-29-003.png" alt="" loading="lazy">
   </label>
   <label class="image-grid-b">
     <input type="checkbox" hidden>
-    <img class="image" class="image-grid-b" src="/_resources/imagenes/2022-06-28-004.png" alt="">
+    <img class="image" class="image-grid-b" src="/_resources/imagenes/2022-06-28-004.png" alt="" loading="lazy">
   </label>
   <label class="image-grid-c">
     <input type="checkbox" hidden>
-    <img class="image" class="image-grid-c" src="/_resources/imagenes/2022-05-15-054.png" alt="">
+    <img class="image" class="image-grid-c" src="/_resources/imagenes/2022-05-15-054.png" alt="" loading="lazy">
   </label>
   <label class="image-grid-d">
     <input type="checkbox" hidden>
-    <img class="image" class="image-grid-d" src="/_resources/imagenes/2022-05-15-034.png" alt="">
+    <img class="image" class="image-grid-d" src="/_resources/imagenes/2022-05-15-034.png" alt="" loading="lazy">
   </label>
   <label class="image-grid-e">
     <input type="checkbox" hidden>
-    <img class="image" class="image-grid-e" src="/_resources/imagenes/2022-05-05-002.png" alt="">
+    <img class="image" class="image-grid-e" src="/_resources/imagenes/2022-05-05-002.png" alt="" loading="lazy">
   </label>
+</div>
+<div class="grid-2">
+  {% for imagen in imagenes | reverse %}
+    <a class="imageness" href="/_resources/imagenes/{{ imagen }}">
+      <img 
+        src="/_resources/imagenes/{{ imagen }}" 
+        alt="" 
+        loading="lazy"
+        width="300"
+        height="300"
+      >
+    </a>
+  {% endfor %}
 </div>
