@@ -139,6 +139,34 @@ audio {
   margin-inline: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.right {
+  align-items: flex-end;
+}
+
+.gap-100 {
+  gap: 0.5rem;
+}
+
+.gap-200 {
+  gap: 0.75rem;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
 /* Layout */
 
 .stack > * + * {
