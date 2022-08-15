@@ -3,21 +3,6 @@
     "Ahora mismo",
     [
       {
-        "titulo": "K-Punk - Volumen 2",
-        "subtitulo": "Escritos reunidos e inéditos (Música y política)",
-        "autor": "Mark Fisher",
-        "tapa": "k-punk-2.png",
-        "tapa_alt": "",
-        "fecha_leido": "2022",
-        "editorial": "Caja Negra",
-        "formato": "Físico"
-      }
-    ]
-  ],
-  [
-    "En la mesita de luz",
-    [
-      {
         "titulo": "Mario Villani (1940 - 2021)",
         "subtitulo": "Físico, militante, desaparecido, sobreviviente, testigo de los crimenes de la dictadura",
         "autor": "Mario Villani",
@@ -25,8 +10,26 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Artesanal",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 46
       },
+      {
+        "titulo": "Crash",
+        "autor": "J. G. Ballard",
+        "tapa": "crash.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Octaedro",
+        "formato": "Físico",
+        "traduccion": "Francisco Abelenda",
+        "ISBN": "968-432-784-9",
+        "paginas": 192
+      }
+    ]
+  ],
+  [
+    "En la mesita de luz",
+    [
       {
         "titulo": "Cartografica",
         "autor": "Sike",
@@ -34,7 +37,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Estudio Mafia",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 201
       }
     ]
   ],
@@ -42,13 +46,25 @@
     "Leidos en 2022",
     [
       {
+        "titulo": "K-Punk - Volumen 2",
+        "subtitulo": "Escritos reunidos e inéditos (Música y política)",
+        "autor": "Mark Fisher",
+        "tapa": "k-punk-2.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Caja Negra",
+        "formato": "Físico",
+        "paginas": 542
+      },
+      {
         "titulo": "Taj Mahal",
         "autor": "Deborah Eisenberg",
         "tapa": "taj-mahal.png",
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Chai",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 229
       },
       {
         "titulo": "Dentro del laberinto / Entre paredes y suspiros",
@@ -57,7 +73,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Artesanal",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 48
       },
       {
         "titulo": "El genocidio como práctica social",
@@ -67,7 +84,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Fondo de Cultura Económica",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 405
       },
       {
         "titulo": "El libro de la almohada",
@@ -76,7 +94,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Adriana Hidalgo",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 319
       },
       {
         "titulo": "Cielo rojo",
@@ -85,7 +104,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Estudio Mafia",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 20
       },
       {
         "titulo": "Dilla time",
@@ -95,7 +115,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Swift Press",
-        "formato": "ebook"
+        "formato": "ebook",
+        "paginas": 480
       },
       {
         "titulo": "El evangelio según Jesucristo",
@@ -104,7 +125,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Punto de Lectura",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 492
       },
       {
         "titulo": "Patterns Of Enterprise Application Architecture",
@@ -113,7 +135,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "formato": "ebook",
-        "editorial": "Addison Wesley"
+        "editorial": "Addison Wesley",
+        "paginas": 533
       },
       {
         "titulo": "Broad band",
@@ -123,7 +146,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "formato": "ebook",
-        "editorial": "Penguin Putnam Inc."
+        "editorial": "Penguin Putnam Inc.",
+        "paginas": 288
       }
     ]
   ],
@@ -138,7 +162,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Caja Negra",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 152
       },
       {
         "titulo": "K-Punk - Volumen 1",
@@ -148,7 +173,8 @@
         "tapa_alt": "",
         "fecha_leido": "2022",
         "editorial": "Caja Negra",
-        "formato": "Físico"
+        "formato": "Físico",
+        "paginas": 387
       },
       {
         "titulo": "Los Diarios De Emilio Renzi I",
