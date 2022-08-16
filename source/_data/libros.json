@@ -31,6 +31,19 @@
     "En la mesita de luz",
     [
       {
+        "titulo": "A Cyborg Manifesto",
+        "autor": "Donna J. Haraway",
+        "tapa": "a-cyborg-manifesto.png",
+        "tapa_alt": "",
+        "formato": "ebook",
+        "paginas": 96
+      }
+    ]
+  ],
+  [
+    "Leidos en 2022",
+    [
+      {
         "titulo": "Cartografica",
         "autor": "Sike",
         "tapa": "cartografica.png",
@@ -39,12 +52,7 @@
         "editorial": "Estudio Mafia",
         "formato": "Físico",
         "paginas": 201
-      }
-    ]
-  ],
-  [
-    "Leidos en 2022",
-    [
+      },
       {
         "titulo": "K-Punk - Volumen 2",
         "subtitulo": "Escritos reunidos e inéditos (Música y política)",
