@@ -3,17 +3,6 @@
     "Ahora mismo",
     [
       {
-        "titulo": "Mario Villani (1940 - 2021)",
-        "subtitulo": "Físico, militante, desaparecido, sobreviviente, testigo de los crimenes de la dictadura",
-        "autor": "Mario Villani",
-        "tapa": "testimonio-mario-villani.png",
-        "tapa_alt": "",
-        "fecha_leido": "2022",
-        "editorial": "Artesanal",
-        "formato": "Físico",
-        "paginas": 46
-      },
-      {
         "titulo": "Crash",
         "autor": "J. G. Ballard",
         "tapa": "crash.png",
@@ -43,6 +32,17 @@
   [
     "Leidos en 2022",
     [
+      {
+        "titulo": "Mario Villani (1940 - 2021)",
+        "subtitulo": "Físico, militante, desaparecido, sobreviviente, testigo de los crimenes de la dictadura",
+        "autor": "Mario Villani",
+        "tapa": "testimonio-mario-villani.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Artesanal",
+        "formato": "Físico",
+        "paginas": 46
+      },
       {
         "titulo": "Cartografica",
         "autor": "Sike",
