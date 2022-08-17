@@ -3,6 +3,18 @@
     "Ahora mismo",
     [
       {
+        "titulo": "Si Esto Es Un Hombre",
+        "autor": "Primo Levi",
+        "tapa": "si-esto-es-un-hombre.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Octaedro",
+        "formato": "Físico",
+        "traduccion": "Pilar Gomez Bedate",
+        "ISBN": "968-432-407-8",
+        "paginas": 213
+      },
+      {
         "titulo": "Crash",
         "autor": "J. G. Ballard",
         "tapa": "crash.png",
