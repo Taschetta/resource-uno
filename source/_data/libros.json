@@ -15,6 +15,30 @@
         "paginas": 213
       },
       {
+        "titulo": "Outsiders",
+        "subtitulo": "Hacia Una sociología de la desviación",
+        "autor": "Howard Becker",
+        "tapa": "outsiders.png",
+        "tapa_alt": "",
+        "editorial": "Siglo XXI",
+        "formato": "fisico",
+        "paginas": 225
+      }
+    ]
+  ],
+  [
+    "En la mesita de luz",
+    [
+      {
+        "titulo": "Tristes Trópicos",
+        "autor": "Claude Levi Strauss",
+        "tapa": "tristes-tropicos.png",
+        "tapa_alt": "",
+        "editorial": "EUDEBA",
+        "formato": "fisico",
+        "paginas": 418
+      },
+      {
         "titulo": "Crash",
         "autor": "J. G. Ballard",
         "tapa": "crash.png",
@@ -25,12 +49,7 @@
         "traduccion": "Francisco Abelenda",
         "ISBN": "968-432-784-9",
         "paginas": 192
-      }
-    ]
-  ],
-  [
-    "En la mesita de luz",
-    [
+      },
       {
         "titulo": "A Cyborg Manifesto",
         "autor": "Donna J. Haraway",
