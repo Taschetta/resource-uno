@@ -13,16 +13,6 @@
         "traduccion": "Pilar Gomez Bedate",
         "ISBN": "968-432-407-8",
         "paginas": 213
-      },
-      {
-        "titulo": "Outsiders",
-        "subtitulo": "Hacia Una sociología de la desviación",
-        "autor": "Howard Becker",
-        "tapa": "outsiders.png",
-        "tapa_alt": "",
-        "editorial": "Siglo XXI",
-        "formato": "fisico",
-        "paginas": 225
       }
     ]
   ],
@@ -63,6 +53,16 @@
   [
     "Leidos en 2022",
     [
+      {
+        "titulo": "Outsiders",
+        "subtitulo": "Hacia Una sociología de la desviación",
+        "autor": "Howard Becker",
+        "tapa": "outsiders.png",
+        "tapa_alt": "",
+        "editorial": "Siglo XXI",
+        "formato": "fisico",
+        "paginas": 225
+      },
       {
         "titulo": "Mario Villani (1940 - 2021)",
         "subtitulo": "Físico, militante, desaparecido, sobreviviente, testigo de los crimenes de la dictadura",
