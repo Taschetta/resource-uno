@@ -1,0 +1,17 @@
+[
+  {
+    "from": "Jim Nielsen’s Blog",
+    "name": "(Re)Introducing Readlists",
+    "url": "https://blog.jim-nielsen.com/2021/reintroducing-readlists/"
+  },
+  {
+    "from": "Every Layout",
+    "name": "Complex conditional width using flex-basis with clamp",
+    "url": "https://every-layout.dev/blog/sidebar-flex-basis-clamp/"
+  },
+  {
+    "from": "CSS { In Real Life }",
+    "name": "Creative CSS Layout (and the Flexible Web) ",
+    "url":"https://css-irl.info/creative-css-layout-and-the-flexible-web/"
+  }
+]

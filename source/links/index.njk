@@ -1,0 +1,12 @@
+---
+layout: 'base.njk'
+---
+
+<h2 class="skew">
+  Links!
+</h2>
+<ul>
+  {% for link in links %}
+    <li><a href="{{ link.url }}">{{ link.from }} - {{ link.name }}</a></li>
+  {% endfor %}
+</ul>
