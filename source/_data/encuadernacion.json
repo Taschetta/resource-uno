@@ -44,6 +44,13 @@
     "titulo": "Libros",
     "items": [
       {
+        "titulo": "Heliogabalo: o el Anarquista coronado",
+        "subtitulo": "Antonin Artaud",
+        "imagen": "heliogabalo.png",
+        "imagen_alt": "",
+        "tipo": "Encuadernacion Japonesa"
+      },
+      {
         "titulo": "Agenda Perpetua",
         "subtitulo": "Levi Giewlos",
         "imagen": "zaile.png",

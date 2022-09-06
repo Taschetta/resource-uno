@@ -3,6 +3,21 @@
     "Ahora mismo",
     [
       {
+        "titulo": "La Historia Secreta del Disco",
+        "subtitulo": "Sexualidad e integración racial en la pista de baile",
+        "autor": "Peter Shapiro",
+        "tapa": "la-historia-secreta-del-disco.png",
+        "tapa_alt": "",
+        "fecha_leido": "2022",
+        "editorial": "Caja Negra",
+        "formato": "Físico",
+        "traduccion": "Agostina Marchi",
+        "ISBN": "978-987-1622-15-3",
+        "paginas": 416,
+        "ancho": 19,
+        "alto": 14
+      },
+      {
         "titulo": "Si Esto Es Un Hombre",
         "autor": "Primo Levi",
         "tapa": "si-esto-es-un-hombre.png",
